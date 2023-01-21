@@ -1,0 +1,8 @@
+<odoo>
+    <record id="sequence_service_subscriptions" model="ir.sequence">
+        <field name="name">Service Subscriptions Sequence</field>
+        <field name="code">subscription.package</field>
+        <field name="prefix">SUB/%(year)s/%(month)s/</field>
+        <field name="padding">5</field>
+    </record>
+</odoo>
